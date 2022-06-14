@@ -2,10 +2,10 @@
  * @Author: liziwei01
  * @Date: 2022-06-13 09:25:31
  * @LastEditors: liziwei01
- * @LastEditTime: 2022-06-13 09:57:26
+ * @LastEditTime: 2022-06-14 14:24:05
  * @Description: file content
  */
-package main
+package addtwonumbers
 
 type ListNode struct {
 	Val  int
