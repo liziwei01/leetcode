@@ -2,10 +2,10 @@
  * @Author: liziwei01
  * @Date: 2022-06-14 13:30:35
  * @LastEditors: liziwei01
- * @LastEditTime: 2022-06-14 14:23:29
+ * @LastEditTime: 2022-06-16 07:38:23
  * @Description: file content
  */
-package intreverse
+package intReverse
 
 import (
 	"fmt"

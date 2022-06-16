@@ -2,10 +2,10 @@
  * @Author: liziwei01
  * @Date: 2022-06-13 16:00:16
  * @LastEditors: liziwei01
- * @LastEditTime: 2022-06-14 14:23:17
+ * @LastEditTime: 2022-06-16 07:38:50
  * @Description: file content
  */
-package lengthoflongestsubstring
+package lengthOfLongestSubstring
 
 func lengthOfLongestSubstring(s string) int {
 	if len(s) < 2 {

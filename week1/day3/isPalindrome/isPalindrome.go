@@ -2,10 +2,10 @@
  * @Author: liziwei01
  * @Date: 2022-06-14 16:40:35
  * @LastEditors: liziwei01
- * @LastEditTime: 2022-06-15 14:57:59
+ * @LastEditTime: 2022-06-16 07:37:58
  * @Description: file content
  */
-package ispalindrome
+package isPalindrome
 
 import "fmt"
 

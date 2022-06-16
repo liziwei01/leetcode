@@ -2,10 +2,10 @@
  * @Author: liziwei01
  * @Date: 2022-06-14 12:30:53
  * @LastEditors: liziwei01
- * @LastEditTime: 2022-06-14 14:22:40
+ * @LastEditTime: 2022-06-16 07:38:35
  * @Description: file content
  */
-package zconvert
+package ZConvert
 
 func convert(s string, numRows int) string {
 	if numRows == 1 {

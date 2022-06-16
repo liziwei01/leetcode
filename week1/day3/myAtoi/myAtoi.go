@@ -2,10 +2,10 @@
  * @Author: liziwei01
  * @Date: 2022-06-14 14:22:14
  * @LastEditors: liziwei01
- * @LastEditTime: 2022-06-15 14:50:42
+ * @LastEditTime: 2022-06-16 07:37:52
  * @Description: file content
  */
-package myatoi
+package myAtoi
 
 func myAtoi(s string) int {
 	ret := make([]byte, 0)

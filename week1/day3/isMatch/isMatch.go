@@ -2,10 +2,10 @@
  * @Author: liziwei01
  * @Date: 2022-06-15 15:41:17
  * @LastEditors: liziwei01
- * @LastEditTime: 2022-06-15 16:33:23
+ * @LastEditTime: 2022-06-16 07:38:04
  * @Description: file content
  */
-package ismatch
+package isMatch
 
 func isMatch(s string, p string) bool {
 	len_s := len(s)

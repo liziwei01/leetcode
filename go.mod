@@ -1,3 +1,3 @@
-module gin-idiary-appui
+module leetcode
 
 go 1.18

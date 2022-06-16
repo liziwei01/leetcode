@@ -2,10 +2,10 @@
  * @Author: liziwei01
  * @Date: 2022-06-14 11:53:19
  * @LastEditors: liziwei01
- * @LastEditTime: 2022-06-14 14:23:49
+ * @LastEditTime: 2022-06-16 07:38:11
  * @Description: file content
  */
-package findmediansortedarrays
+package findMedianSortedArrays
 
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	result := joinTwoSortedArrays(nums1, nums2)

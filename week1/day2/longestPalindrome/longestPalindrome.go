@@ -2,10 +2,10 @@
  * @Author: liziwei01
  * @Date: 2022-06-14 12:07:50
  * @LastEditors: liziwei01
- * @LastEditTime: 2022-06-14 14:23:06
+ * @LastEditTime: 2022-06-16 07:38:29
  * @Description: file content
  */
-package longestpalindrome
+package longestPalindrome
 
 func longestPalindrome(s string) string {
 	length := len(s)

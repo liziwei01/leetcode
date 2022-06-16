@@ -2,10 +2,10 @@
  * @Author: liziwei01
  * @Date: 2022-06-13 09:15:39
  * @LastEditors: liziwei01
- * @LastEditTime: 2022-06-14 14:22:52
+ * @LastEditTime: 2022-06-16 07:39:02
  * @Description: file content
  */
-package twosum
+package twoSum
 
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
