@@ -2,7 +2,7 @@
  * @Author: liziwei01
  * @Date: 2022-07-21 18:48:00
  * @LastEditors: liziwei01
- * @LastEditTime: 2022-07-23 23:33:06
+ * @LastEditTime: 2022-08-03 02:51:10
  * @Description: file content
  */
 package findSubstring
@@ -26,6 +26,9 @@ func findSubstring(s string, words []string) []int {
 	return ans
 }
 
+// 检查s中是否恰好可以由 words 中所有单词串联形成的子串
+// 检查s开头是否正好是某个单词
+// 如果是，则检查s的后面是否能串联 words 中所有单词
 func judgeSubstring(s string, words []string) bool {
 	if len(words) == 0 {
 		return true
@@ -163,6 +166,7 @@ func removeDuplicatesStr(nums []string) []string {
 	return nums
 }
 
+// 检查如果所有的单词都相同（比如全是a），则只返回一个单词
 func checkSameWords(words []string) []string {
 	if len(words) == 0 || len(words) == 1 {
 		return words
