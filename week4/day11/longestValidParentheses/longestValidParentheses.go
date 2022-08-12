@@ -2,7 +2,7 @@
  * @Author: liziwei01
  * @Date: 2022-08-03 03:15:57
  * @LastEditors: liziwei01
- * @LastEditTime: 2022-08-03 04:06:41
+ * @LastEditTime: 2022-08-12 16:59:45
  * @Description: file content
  */
 package longestValidParentheses
@@ -38,6 +38,7 @@ func longestValidParentheses(s string) int {
 	}
 
 	// 开始计算最长的有效括号
+	// 1 如果能直接匹配成功最好
 	var h = heap{
 		data: make([]dataStruct, 0),
 		size: 0,
@@ -53,6 +54,7 @@ func longestValidParentheses(s string) int {
 			)
 		} else {
 			if d := h.pop(); d.r != '(' {
+				// 2 如果发现左括号用完了，说明右括号多了。前半【(())  )  ()】是有效的，再来单独看看后半
 				return max(i, longestValidParentheses(s[i+1:]))
 			}
 		}
@@ -62,6 +64,7 @@ func longestValidParentheses(s string) int {
 		return sLen
 	}
 
+	// 3 如果是左括号多了，那么就开始分段，每个多余的左括号【()  (  ()()  (  (())】所在的位置都是一个楔子，把str分成很多段重新看
 	maximum := longestValidParentheses(s[:h.data[0].i])
 	for idx := 0; idx < h.size-1; idx++ {
 		left := h.data[idx].i
