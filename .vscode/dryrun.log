@@ -1,4 +1,13 @@
-make.exe --dry-run --always-make --keep-going --print-directory
-'make.exe' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
-���������ļ���
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/liziwei/Desktop/OpenSource/github.com/leetcode'
+git config --global http.sslVerify false
+/usr/local/bin/go env -w GOPROXY="https://goproxy.io"
+/usr/local/bin/go mod tidy #下载Go依赖
+/usr/local/bin/go build -o /Users/liziwei/Desktop/OpenSource/github.com/leetcode/bin/leetcode
+make: Leaving directory `/Users/liziwei/Desktop/OpenSource/github.com/leetcode'
+ 
+cp: bin: No such file or directory
+cp: conf: No such file or directory
+tar: ./*: Cannot stat: No such file or directory
+tar: Error exit delayed from previous errors.
 
