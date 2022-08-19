@@ -8,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This program built for i386-apple-darwin11.3.0
  
 
-# Make data base, printed on Tue Aug 16 19:46:04 2022
+# Make data base, printed on Thu Aug 18 22:43:34 2022
 
 # Variables
 
@@ -83,7 +83,7 @@ OUTDIR := /Users/liziwei/Desktop/OpenSource/github.com/leetcode/output
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/liziwei/Library/Application Support/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
+VSCODE_CODE_CACHE_PATH = /Users/liziwei/Library/Application Support/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
 LOGNAME = liziwei
 # environment
@@ -121,7 +121,7 @@ TMPDIR = /var/folders/d_/b5btcmzs4tjbmbxmrslh7fqh0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/liziwei/Library/Application Support/Code/1.70.1-main.sock
+VSCODE_IPC_HOOK = /Users/liziwei/Library/Application Support/Code/1.70.2-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -131,7 +131,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.2594509.2594515
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.3263176.3263182
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -163,7 +163,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 10585
+VSCODE_PID = 57130
 # variable set hash-table stats:
 # Load=76/1024=7%, Rehash=0, Collisions=4/118=3%
 
@@ -204,6 +204,7 @@ test-case:
 .SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 
 # Not a target:
@@ -329,10 +330,9 @@ gomod: prepare-dep set-env
 
 # # of strings in strcache: 1
 # # of strcache buffers: 1
- 
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Aug 16 19:46:04 2022
+# Finished Make data base on Thu Aug 18 22:43:34 2022
 
  
