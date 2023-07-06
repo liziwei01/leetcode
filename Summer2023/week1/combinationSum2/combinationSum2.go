@@ -2,7 +2,7 @@
  * @Author: liziwei01
  * @Date: 2023-06-04 14:16:16
  * @LastEditors: liziwei01
- * @LastEditTime: 2023-06-04 22:14:40
+ * @LastEditTime: 2023-06-11 09:47:55
  * @Description: file content
  */
 package combinationSum2
@@ -37,7 +37,6 @@ func (s IntIntSlice) Swap(i, j int) {
 func combinationSum2(candidates []int, target int) [][]int {
 	// quick sort
 	sort.IntSlice(candidates).Sort()
-
 	// recursive
 	res := combSum2(candidates, target)
 

@@ -7,7 +7,7 @@
  */
 package lengthOfLongestSubstring
 
-func lengthOfLongestSubstring(s string) int {
+func lengthOfLongestSubstring1(s string) int {
 	if len(s) < 2 {
 		return len(s)
 	}
