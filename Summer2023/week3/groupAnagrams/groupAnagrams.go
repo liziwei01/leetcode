@@ -2,7 +2,7 @@
  * @Author: liziwei01
  * @Date: 2023-07-04 17:44:32
  * @LastEditors: liziwei01
- * @LastEditTime: 2023-07-04 18:10:42
+ * @LastEditTime: 2023-07-11 21:22:08
  * @Description: file content
  */
 package groupanagrams
@@ -10,7 +10,6 @@ package groupanagrams
 import (
 	"sort"
 )
-
 
 type stringIdx struct {
 	str string
@@ -46,7 +45,6 @@ func deepCopyAddIdx(strs []string) []stringIdx {
 	}
 	return ret
 }
-
 
 func intraOrder(strs []stringIdx) {
 	for i := 0; i != len(strs); i++ {
