@@ -1,0 +1,9 @@
+package pdd
+
+import "testing"
+
+func TestPDD(t *testing.T) {
+	// t.Log(main2(10000))
+	// t.Log(comb(9901, 100))
+	// main1(1, 100, "asvdsfbrnbrvecaasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvdasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvdasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvdasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvdasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvdasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvdasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvdasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvdasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvddgnfgdsvdacsdsbfdbsvdasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvdasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvdasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvdasvdsfbrnbrvecadgnfgdsvdacsdsbfdbsvd")
+}
