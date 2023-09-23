@@ -47,7 +47,7 @@ func Sort(data Interface) {
 	if n <= 1 {
 		return
 	}
-	// limit := bits.Len(uint(n))x
+	// limit := bits.Len(uint(n))
 	// pdqsort(data, 0, n, limit)
 }
 
