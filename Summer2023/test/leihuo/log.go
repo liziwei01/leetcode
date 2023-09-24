@@ -1,4 +1,4 @@
-package main
+package leihuo
 
 import (
 	"fmt"
