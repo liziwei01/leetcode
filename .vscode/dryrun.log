@@ -4,11 +4,10 @@ git config --global http.sslVerify false
 /opt/homebrew/bin/go env -w GOPROXY="https://goproxy.io"
 /opt/homebrew/bin/go mod tidy #下载Go依赖
 /opt/homebrew/bin/go build -o /Users/liziwei01/Desktop/OpenSource/github.com/leetcode/bin/leetcode
+make: Leaving directory `/Users/liziwei01/Desktop/OpenSource/github.com/leetcode'
  
 cp: bin: No such file or directory
 cp: conf: No such file or directory
 tar: ./*: Cannot stat: No such file or directory
 tar: Error exit delayed from previous errors.
 
-make: Leaving directory `/Users/liziwei01/Desktop/OpenSource/github.com/leetcode'
- 
