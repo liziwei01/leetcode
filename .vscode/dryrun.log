@@ -6,7 +6,6 @@ git config --global http.sslVerify false
 /opt/homebrew/bin/go build -o /Users/liziwei01/Desktop/OpenSource/github.com/leetcode/bin/leetcode
  
 cp: bin: No such file or directory
-
 cp: conf: No such file or directory
 
 tar: ./*: Cannot stat: No such file or directory
