@@ -7,7 +7,6 @@ git config --global http.sslVerify false
  
 cp: bin: No such file or directory
 cp: conf: No such file or directory
-
 tar: ./*: Cannot stat: No such file or directory
 tar: Error exit delayed from previous errors.
 

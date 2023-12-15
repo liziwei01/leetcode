@@ -7,9 +7,8 @@ set n = n-1;
             (select distinct salary
                 from Employee
                 order by salary desc
-                limit 1 offset n), 
+                limit 1 offset n),
             null
         )
     );
 END
-
